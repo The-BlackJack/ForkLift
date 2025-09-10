@@ -19,12 +19,12 @@ ControllerPtr myController;
 #define rightMotor0 33    // Used for controlling the right motor movement
 #define rightMotor1 32    // Used for controlling the right motor movement
 
-#define throttleDeadZone 15
+#define throttleDeadZone 40
 #define steeringDeadZone 30
 #define mastDeadZone 20
 #define mastMoveSpeed 1
-#define mastTiltMin 35
-#define mastTiltMax 120
+#define mastTiltMin 60
+#define mastTiltMax 180
 
 #define steeringMaxSpeed 3
 
@@ -34,7 +34,7 @@ ControllerPtr myController;
 #define mastTiltDeadZone   70
 #define mastTiltAxisMax   512   // typical value -512..512
 #define mastTiltMinHz     10    // minimale Step-Frequenz (Stick little above center )
-#define mastTiltMaxHz     120    // maximale Step-Frequenz (Stick full)
+#define mastTiltMaxHz     180    // maximale Step-Frequenz (Stick full)
 
 Servo steeringServo;
 Servo mastTiltServo;
